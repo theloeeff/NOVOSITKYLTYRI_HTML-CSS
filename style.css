@@ -1,0 +1,115 @@
+body {
+    background-color: black;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+@font-face {
+    font-family: monseterrat;
+    src: url(font/Montserrat-Light.ttf);
+  }
+
+
+/*header*/
+
+.header {
+    margin: -40px 0px;
+    padding: 0px;
+    height: 300px;
+    background-color: white;
+}
+
+.header h1 {
+    position: relative;
+    top: 60px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.header ul {
+    position: relative;
+    top: 60px;
+    display: flex;
+    content: center;
+    justify-content: space-around;
+    margin: auto;
+    list-style-type: none;
+    width: 1050px;
+    height: 100px;
+}
+
+.header li {
+    padding: 32px;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: "monseterrat";
+}
+
+/*main page*/
+
+.bigzagolovok {
+    margin: -64px 0px;
+    height: 770px;
+    background-image: url(images/underwater-hotel.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    text-align: center;
+    font-family: "monseterrat";
+}
+
+.bigzagolovok h1 {
+    font-size: 96px;
+    position: relative;
+    top: 200px;
+}
+
+.bigzagolovok p {
+    margin: auto;
+    position: relative;
+    top: 50%;
+    width: 700px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.reviews {
+    background-color: white;
+    margin: -64px 0px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    text-align: center;
+    font-family: "monseterrat";
+}
+
+.reviewcontainer {
+    margin: 80px 0px;
+    display: flex;
+    content: center;
+    justify-content: center;
+}
+
+.reviews h1 {
+    font-size: 26px;
+    position: relative;
+    top: 60px;
+}
+
+.review {
+    padding: 16px;
+    height: 400px;
+    width: 500px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.review img {
+    width: 100%;
+
+}
+
+.review h2 {
+    font-size: 32px;
+}
